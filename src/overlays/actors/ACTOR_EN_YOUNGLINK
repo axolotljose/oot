@@ -1,0 +1,5 @@
+<actors>
+  <actor id="0x01F0" params="0x0000" pos="0 0 0" rot="0 0 0"/>
+  <!-- id must match ACTOR_EN_YOUNGLINK -->
+  <!-- pos="0 0 0" places near player spawn; adjust as needed -->
+</actors>
