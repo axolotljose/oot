@@ -96,9 +96,10 @@ void EnYoungLink_Draw(Actor* thisx, PlayState* play) {
 
     Gfx_SetupDL_37Opa(play->state.gfxCtx);
 
-    // Draw skeleton animation
-    SkelAnime_DrawFlexOpa(play, this->skelAnime.skeleton, this->skelAnime.jointTable, 
-                          this->skelAnime.dListCount, NULL, NULL, this);
+    // Use this (references gameplay_keep animation):
+SkelAnime_InitFlex(play, &this->skelAnime, &gLinkChildSkel, 
+                   &gLinkChildIdleAnim,  // or &gLinkChildStandAnim
+                   this->jointTable, this->morphTable, 17);
 
     CLOSE_DISPS(play->state.gfxCtx, "../z_en_younglink.c", 160);
 }
