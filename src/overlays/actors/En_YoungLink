@@ -1,4 +1,0 @@
-src/overlays/actors/ovl_En_YoungLink/
-├── z_en_younglink.c      (main implementation)
-├── z_en_younglink.h      (header)
-└── Makefile              (handled by build system)
