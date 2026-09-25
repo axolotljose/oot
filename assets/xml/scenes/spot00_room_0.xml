@@ -1,0 +1,4 @@
+<objects>
+  <object id="0x01" name="OBJECT_LINK_CHILD"/>  <!-- Add this line -->
+  <!-- Other objects... -->
+</objects>
