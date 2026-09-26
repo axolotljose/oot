@@ -1,0 +1,11 @@
+# First time setup (downloads tools, extracts ROM data)
+make setup
+
+# Build the ROM
+make
+
+# Build and compress the ROM
+make compress
+
+# Clean old builds
+make clean
